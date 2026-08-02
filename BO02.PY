@@ -90,7 +90,7 @@ if b>c:
 
 print("in asc order:",a,b,c)
 
-
+'''
 
 
 char=input("enter a char:")
@@ -102,6 +102,6 @@ elif char.isalpha():
 else :
     print("it is an invalid input.")
 
-'''
+
 
 
