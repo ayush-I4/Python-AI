@@ -122,3 +122,6 @@ print(f"Average = {average}")
 
 
 #print(f"Simple Interest = {SI}")
+
+
+a=input("enter")
