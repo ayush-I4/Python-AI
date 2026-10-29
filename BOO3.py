@@ -70,19 +70,19 @@ for _ in range(n):
 
     
     '''
-top=-1
-s = [None] * 3
 
+s = [None] * 3
+top=-1
 def push(n,x):
     if top == n-1:
       print("stack overflow")
       return
     if top is None:
       top=0
-    
-top=top+1
-s[top]=x
-print(f"Pushed {x} at position {top}")
+    else:
+      top=top+1
+    s[top]=x
+    print(f"Pushed {x} at position {top}")
 push(3,10)
 push(3,20)
 push(3,40)
